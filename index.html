@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agencia de Viajes</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+ <!--Titulo de pagina-->
+ <h1>Destinos</h1>
+
+ <!-- contenido principal -->
+
+<main>
+<section class="parrafo">
+       <p>Descubre la fascinante diversidad de destinos que ofrecen ciudades emblemáticas como Barcelona, Berlín, Estocolmo, Lima, Londres, Nueva York, París, Roma y Venecia. </p>
+       <p>Desde la majestuosidad de la Sagrada Familia en Barcelona hasta el vibrante arte callejero de Berlín, estas ciudades ofrecen un viaje a través del tiempo y la cultura.  </p>
+       <p>Sumérgete en la historia antigua explorando el Coliseo en Roma o recorre los canales serenos de Venecia en una góndola. </p>
+       <p>Experimenta la mezcla de lo tradicional y lo moderno en las calles de Lima, o maravíllate con la imponente Torre Eiffel en París.</p>
+       <p>Desde los rascacielos de Nueva York hasta los palacios reales de Estocolmo, cada destino te invita a descubrir su encanto único y su rica herencia cultural. </p>
+       <p>Estas ciudades son tesoros globales que ofrecen experiencias inolvidables para todos los viajeros, sin importar sus intereses y pasiones.</p>
+    </section>
+
+    <form id="travelForm">
+        <label for="destination">Destino:</label>
+        <select id="destination">
+          <option value="barcelona">Barcelona</option>
+          <option value="berlin">Berlín</option>
+          <option value="estocolmo">Estocolmo</option>
+          <option value="lima">Lima</option>
+          <option value="london">Londres</option>
+          <option value="newyork">Nueva York</option>
+          <option value="paris">París</option>
+          <option value="roma">Roma</option>
+          <option value="venice">Venecia</option>
+        </select>
+        <br>
+        <label for="departureDate">Fecha de Ida:</label>
+        <input type="date" id="departureDate" required>
+        <br>
+        <label for="returnDate">Fecha de Vuelta:</label>
+        <input type="date" id="returnDate" required>
+        <br>
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+        <br>
+        <button type="submit">Enviar Solicitud</button>
+      </form>
+    
+      <div id="confirmation"></div>
+
+     <div class="contenedor">
+         <div class="fila">
+             <div class="foto"><img src="Images/foto-barcelona.jpg" alt=""></div>
+             <div class="foto"><img src="Images/foto-berlin.jpg" alt=""></div>
+             <div class="foto"><img src="Images/foto-estocolmo.jpg" alt=""></div>
+             <div class="foto"><img src="Images/foto-lima.jpg" alt=""></div>
+             <div class="foto"><img src="Images/foto-london.jpg" alt=""></div>
+         </div>
+ 
+         <div class="fila">
+             <div class="foto"><img src="Images/foto-newyork.jpg" alt=""></div>
+             <div class="foto"><img src="Images/foto-paris.jpg" alt=""></div>
+             <div class="foto"><img src="Images/foto-roma.jpg" alt=""></div>
+             <div class="foto"><img src="Images/foto-venecia.jpg" alt=""></div>
+         </div>
+     </div>
+ </main>
+ 
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+ </body>
+ 
+   <footer>
+     <div class="container">
+       <div class="row">
+         <div class="col-md-4">
+           <h4>Contacto</h4>
+           <p>Dirección: Calle Viajes, Ciudad Explora</p>
+           <p>Email: info@viajesexplora.com</p>
+           <p>Teléfono: +1 (123) 456-7890</p>
+         </div>
+
+ 
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+  

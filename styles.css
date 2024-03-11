@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    margin-right: 5px;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  
+  #confirmation {
+    display: none;
+    margin-top: 20px;
+    color: #083969;
+    text-align: center;
+  }
+  
+  .success {
+    color: #083969;
+
+
+  }
+  .error {
+    color: red;
+  }
+  
+  .foto {
+    background-color: #083969;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: column;
+    margin: 10px; /* Ajusta el margen según tu preferencia */
+    padding: 10px;
+    width: 200px;
+    transition: transform 0.3s ease;
+  }
+  
+  .foto:hover {
+    transform: scale(1.1);
+  }
+  
+  .foto img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .fila {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px; 
+  }
+
+
+  .parrafo {
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+ 
+  h1 {
+    color: #336699;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .parrafo {
+    color: #336699;
+  }
+  
+  p {
+    font-size: 20px;
+  }
+
+  /* Estilos para los campos de fecha de ida y vuelta */
+#departureDate,
+#returnDate {
+  padding: 6px; 
+  border-radius: 5px; 
+  border: none; 
+  font-family: 'Arial', sans-serif; 
+  margin-bottom: 10px; 
+  width: 100%; 
+}
+
+  
+  footer {
+    background-color: #336699;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: none;
+    transition: color 0.3s ease;
+  }
+  
+
+  
+
+  #travelForm {
+  width: 300px; 
+  margin: 0 auto; 
+  background-color: #336699; 
+  padding: 20px; 
+  border-radius: 10px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+/* Estilos para las etiquetas y los inputs dentro del formulario */
+#travelForm label, #travelForm input, #travelForm button, #travelForm select {
+  display: block;
+  margin-bottom: 10px; 
+  width: 100%; 
+}
+
+/* Estilos específicos para el botón */
+#travelForm button {
+  background-color: #159ddb; 
+  color: white; 
+  border: none; 
+  padding: 10px; 
+  border-radius: 5px; 
+  cursor: pointer; 
+}
+
+/* Estilos para el texto de los input */
+#travelForm input[type="text"],
+#travelForm input[type="email"],
+#travelForm select {
+  padding: 10px; 
+  border-radius: 5px; 
+  border: none; 
+  font-family: 'Arial', sans-serif; 
+}
+
+/* Estilos específicos para el formulario cuando es grande */
+@media (min-width: 768px) {
+  #travelForm {
+    width: 400px; 
+  }
+}
+
+
