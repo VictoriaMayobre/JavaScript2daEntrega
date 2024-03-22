@@ -37,7 +37,7 @@ body {
     justify-content: space-around;
     align-items: center;
     flex-flow: column;
-    margin: 10px; /* Ajusta el margen según tu preferencia */
+    margin: 10px; 
     padding: 10px;
     width: 200px;
     transition: transform 0.3s ease;
@@ -86,7 +86,6 @@ body {
     font-size: 20px;
   }
 
-  /* Estilos para los campos de fecha de ida y vuelta */
 #departureDate,
 #returnDate {
   padding: 6px; 
@@ -114,25 +113,23 @@ body {
   }
   
 
-  
-
   #travelForm {
   width: 300px; 
   margin: 0 auto; 
   background-color: #336699; 
   padding: 20px; 
   border-radius: 10px; 
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
-/* Estilos para las etiquetas y los inputs dentro del formulario */
+
 #travelForm label, #travelForm input, #travelForm button, #travelForm select {
   display: block;
   margin-bottom: 10px; 
   width: 100%; 
 }
 
-/* Estilos específicos para el botón */
+
 #travelForm button {
   background-color: #159ddb; 
   color: white; 
@@ -142,7 +139,7 @@ body {
   cursor: pointer; 
 }
 
-/* Estilos para el texto de los input */
+
 #travelForm input[type="text"],
 #travelForm input[type="email"],
 #travelForm select {
@@ -152,11 +149,33 @@ body {
   font-family: 'Arial', sans-serif; 
 }
 
-/* Estilos específicos para el formulario cuando es grande */
 @media (min-width: 768px) {
   #travelForm {
     width: 400px; 
   }
 }
 
+#usuariosRegistrados{
+  background-color: #1a6dc0;
+  text-align: center;
+
+}
+
+#contenedorBoton {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  height: 80px; 
+}
+
+#mostrarUsuariosBtn {
+  background-color: #159ddb; 
+  color: white; 
+  border: none; 
+  padding: 15px 30px; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  margin: 0 auto; 
+  font-size: 18px; 
+}
 
